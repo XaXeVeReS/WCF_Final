@@ -1,0 +1,12 @@
+﻿[2025-12-13 16:57:16.900] [INFO] Intento de login con Email: m.sanches.exaple@gmail.com
+[2025-12-13 16:57:17.188] [INFO] Login exitoso para usuario ID: 5
+[2025-12-13 16:57:17.197] [DEBUG] Buscando usuario con ID: 5
+[2025-12-13 16:57:17.200] [INFO] Usuario encontrado exitosamente. ID: 5, Nombre: Miguel Sánches, Rol: Cliente
+[2025-12-13 17:15:13.231] [INFO] Intento de login con Email: m.sanches.exaple@gmail.com
+[2025-12-13 17:15:13.442] [INFO] Login exitoso para usuario ID: 5
+[2025-12-13 17:15:13.452] [DEBUG] Buscando usuario con ID: 5
+[2025-12-13 17:15:13.460] [INFO] Usuario encontrado exitosamente. ID: 5, Nombre: Miguel Sánches, Rol: Cliente
+[2025-12-13 17:19:03.318] [INFO] Intento de login con Email: m.sanches.exaple@gmail.com
+[2025-12-13 17:19:03.382] [INFO] Login exitoso para usuario ID: 5
+[2025-12-13 17:19:03.404] [DEBUG] Buscando usuario con ID: 5
+[2025-12-13 17:19:03.408] [INFO] Usuario encontrado exitosamente. ID: 5, Nombre: Miguel Sánches, Rol: Cliente

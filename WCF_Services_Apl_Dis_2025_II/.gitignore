@@ -1,0 +1,66 @@
+#########################
+# Ignore global folders #
+#########################
+
+# VS settings
+.vs/
+
+# NuGet packages
+packages/
+
+# Test results
+TestResults/
+
+# General backups / temp
+*.tmp
+*.log
+*.bak
+
+#############################
+# Ignore build output       #
+#############################
+
+# BIN y OBJ de TODOS los proyectos
+**/bin/
+**/obj/
+**/Debug/
+**/Release/
+**/x64/
+**/x86/
+**/ARM/
+**/ARM64/
+
+# Archivos compilados
+*.dll
+*.pdb
+*.exe
+
+# Visual Studio cache / users
+*.user
+*.suo
+*.cache
+*.db
+
+#################################
+# WCF / IIS Generated / Logs    #
+#################################
+
+*.svclog
+*.wsdl
+*.xsd
+
+#################################
+# Publish profiles (opcionales) #
+#################################
+*.pubxml
+*.publishsettings
+PublishProfiles/
+
+#################################
+# Otros                         #
+#################################
+
+# Archivos del sistema
+Thumbs.db
+*.DS_Store
+

@@ -1,0 +1,98 @@
+﻿[2025-12-11 01:00:27.491] [INFO] Intento de login con Email: juan@example.com
+[2025-12-11 01:00:27.506] [INFO] Login exitoso para usuario ID: 1
+[2025-12-11 01:00:27.525] [DEBUG] Buscando usuario con ID: 1
+[2025-12-11 01:00:27.533] [INFO] Usuario encontrado exitosamente. ID: 1, Nombre: Juan, Rol: Administrador
+[2025-12-11 01:02:41.865] [INFO] Intento de login con Email: juan@example.com
+[2025-12-11 01:02:41.950] [WARNING] Credenciales inválidas para: juan@example.com
+[2025-12-11 01:02:50.202] [INFO] Intento de login con Email: juan@example.com
+[2025-12-11 01:02:50.204] [INFO] Login exitoso para usuario ID: 1
+[2025-12-11 01:02:50.220] [DEBUG] Buscando usuario con ID: 1
+[2025-12-11 01:02:50.225] [INFO] Usuario encontrado exitosamente. ID: 1, Nombre: Juan, Rol: Administrador
+[2025-12-11 01:08:00.186] [INFO] Intento de login con Email: juan@example.com
+[2025-12-11 01:08:00.202] [INFO] Login exitoso para usuario ID: 1
+[2025-12-11 01:08:00.236] [DEBUG] Buscando usuario con ID: 1
+[2025-12-11 01:08:00.264] [INFO] Usuario encontrado exitosamente. ID: 1, Nombre: Juan, Rol: Administrador
+[2025-12-11 01:10:41.168] [INFO] Intento de login con Email: juan@example.com
+[2025-12-11 01:10:41.176] [INFO] Login exitoso para usuario ID: 1
+[2025-12-11 01:10:41.217] [DEBUG] Buscando usuario con ID: 1
+[2025-12-11 01:10:41.225] [INFO] Usuario encontrado exitosamente. ID: 1, Nombre: Juan, Rol: Administrador
+[2025-12-11 01:21:25.822] [INFO] Intento de login con Email: juan@example.com
+[2025-12-11 01:21:25.835] [INFO] Login exitoso para usuario ID: 1
+[2025-12-11 01:21:25.851] [DEBUG] Buscando usuario con ID: 1
+[2025-12-11 01:21:25.859] [INFO] Usuario encontrado exitosamente. ID: 1, Nombre: Juan, Rol: Administrador
+[2025-12-11 01:21:25.879] [DEBUG] Verificando estado del usuario ID: 1
+[2025-12-11 01:21:25.882] [INFO] Estado del usuario 1: Inactivo
+[2025-12-11 01:21:39.456] [INFO] Intento de login con Email: juan@example.com
+[2025-12-11 01:21:39.457] [INFO] Login exitoso para usuario ID: 1
+[2025-12-11 01:21:39.515] [DEBUG] Buscando usuario con ID: 1
+[2025-12-11 01:21:39.517] [INFO] Usuario encontrado exitosamente. ID: 1, Nombre: Juan, Rol: Administrador
+[2025-12-11 01:23:47.576] [INFO] Intento de login con Email: juan@example.com
+[2025-12-11 01:23:47.579] [INFO] Login exitoso para usuario ID: 1
+[2025-12-11 01:23:47.597] [DEBUG] Buscando usuario con ID: 1
+[2025-12-11 01:23:47.598] [INFO] Usuario encontrado exitosamente. ID: 1, Nombre: Juan, Rol: Administrador
+[2025-12-11 01:25:13.464] [INFO] Intento de login con Email: juan@example.com
+[2025-12-11 01:25:13.466] [INFO] Login exitoso para usuario ID: 1
+[2025-12-11 01:25:13.484] [DEBUG] Buscando usuario con ID: 1
+[2025-12-11 01:25:13.485] [INFO] Usuario encontrado exitosamente. ID: 1, Nombre: Juan, Rol: Administrador
+[2025-12-11 01:32:46.373] [INFO] Intento de login con Email: juan@example.com
+[2025-12-11 01:32:46.381] [INFO] Login exitoso para usuario ID: 1
+[2025-12-11 01:32:46.399] [DEBUG] Buscando usuario con ID: 1
+[2025-12-11 01:32:46.403] [INFO] Usuario encontrado exitosamente. ID: 1, Nombre: Juan, Rol: Administrador
+[2025-12-11 01:40:40.180] [INFO] Intento de login con Email: juan@example.com
+[2025-12-11 01:40:40.186] [INFO] Login exitoso para usuario ID: 1
+[2025-12-11 01:40:40.202] [DEBUG] Buscando usuario con ID: 1
+[2025-12-11 01:40:40.203] [INFO] Usuario encontrado exitosamente. ID: 1, Nombre: Juan, Rol: Administrador
+[2025-12-11 01:43:28.983] [INFO] Intento de login con Email: juan@example.com
+[2025-12-11 01:43:28.985] [INFO] Login exitoso para usuario ID: 1
+[2025-12-11 01:43:28.999] [DEBUG] Buscando usuario con ID: 1
+[2025-12-11 01:43:29.000] [INFO] Usuario encontrado exitosamente. ID: 1, Nombre: Juan, Rol: Administrador
+[2025-12-11 01:46:17.318] [INFO] Intento de login con Email: juan@example.com
+[2025-12-11 01:46:17.321] [INFO] Login exitoso para usuario ID: 1
+[2025-12-11 01:46:17.339] [DEBUG] Buscando usuario con ID: 1
+[2025-12-11 01:46:17.341] [INFO] Usuario encontrado exitosamente. ID: 1, Nombre: Juan, Rol: Administrador
+[2025-12-11 01:47:27.976] [DEBUG] Buscando usuario con ID: 1
+[2025-12-11 01:47:27.977] [INFO] Usuario encontrado exitosamente. ID: 1, Nombre: Juan, Rol: Administrador
+[2025-12-11 01:48:15.266] [INFO] Intento de login con Email: juan@example.com
+[2025-12-11 01:48:15.268] [INFO] Login exitoso para usuario ID: 1
+[2025-12-11 01:48:15.323] [DEBUG] Buscando usuario con ID: 1
+[2025-12-11 01:48:15.325] [INFO] Usuario encontrado exitosamente. ID: 1, Nombre: Juan, Rol: Administrador
+[2025-12-11 01:52:29.447] [INFO] Intento de login con Email: juan@example.com
+[2025-12-11 01:52:29.449] [INFO] Login exitoso para usuario ID: 1
+[2025-12-11 01:52:29.467] [DEBUG] Buscando usuario con ID: 1
+[2025-12-11 01:52:29.469] [INFO] Usuario encontrado exitosamente. ID: 1, Nombre: Juan, Rol: Administrador
+[2025-12-11 02:01:11.484] [INFO] Intento de login con Email: juan@example.com
+[2025-12-11 02:01:11.789] [WARNING] Credenciales inválidas para: juan@example.com
+[2025-12-11 02:01:18.699] [INFO] Intento de login con Email: juan@example.com
+[2025-12-11 02:01:18.702] [INFO] Login exitoso para usuario ID: 1
+[2025-12-11 02:01:18.723] [DEBUG] Buscando usuario con ID: 1
+[2025-12-11 02:01:18.728] [INFO] Usuario encontrado exitosamente. ID: 1, Nombre: Juan, Rol: Administrador
+[2025-12-11 02:06:26.077] [INFO] Intento de login con Email: juan@example.com
+[2025-12-11 02:06:26.082] [INFO] Login exitoso para usuario ID: 1
+[2025-12-11 02:06:26.131] [DEBUG] Buscando usuario con ID: 1
+[2025-12-11 02:06:26.137] [INFO] Usuario encontrado exitosamente. ID: 1, Nombre: Juan, Rol: Administrador
+[2025-12-11 02:15:55.357] [INFO] Intento de login con Email: juan@example.com
+[2025-12-11 02:15:55.357] [INFO] Intento de login con Email: juan@example.com
+[2025-12-11 02:15:55.360] [INFO] Intento de login con Email: juan@example.com
+[2025-12-11 02:15:55.360] [INFO] Intento de login con Email: juan@example.com
+[2025-12-11 02:15:55.362] [INFO] Login exitoso para usuario ID: 1
+[2025-12-11 02:15:55.364] [INFO] Login exitoso para usuario ID: 1
+[2025-12-11 02:15:55.364] [INFO] Intento de login con Email: juan@example.com
+[2025-12-11 02:15:55.366] [INFO] Intento de login con Email: juan@example.com
+[2025-12-11 02:15:55.366] [INFO] Intento de login con Email: juan@example.com
+[2025-12-11 02:15:55.409] [INFO] Login exitoso para usuario ID: 1
+[2025-12-11 02:15:55.451] [WARNING] Credenciales inválidas para: juan@example.com
+[2025-12-11 02:15:55.452] [WARNING] Credenciales inválidas para: juan@example.com
+[2025-12-11 02:15:55.472] [WARNING] Credenciales inválidas para: juan@example.com
+[2025-12-11 02:15:55.498] [WARNING] Credenciales inválidas para: juan@example.com
+[2025-12-11 02:16:15.732] [INFO] Intento de login con Email: juan@example.com
+[2025-12-11 02:16:15.734] [INFO] Login exitoso para usuario ID: 1
+[2025-12-11 02:16:15.750] [DEBUG] Buscando usuario con ID: 1
+[2025-12-11 02:16:15.751] [INFO] Usuario encontrado exitosamente. ID: 1, Nombre: Juan, Rol: Administrador
+[2025-12-11 16:12:39.618] [INFO] Intento de login con Email: juan@example.com
+[2025-12-11 16:12:39.719] [WARNING] Credenciales inválidas para: juan@example.com
+[2025-12-11 16:12:44.087] [INFO] Intento de login con Email: juan@example.com
+[2025-12-11 16:12:44.130] [WARNING] Credenciales inválidas para: juan@example.com
+[2025-12-11 16:12:48.383] [INFO] Intento de login con Email: juan@example.com
+[2025-12-11 16:12:48.385] [INFO] Login exitoso para usuario ID: 1
+[2025-12-11 16:12:48.397] [DEBUG] Buscando usuario con ID: 1
+[2025-12-11 16:12:48.403] [INFO] Usuario encontrado exitosamente. ID: 1, Nombre: Juan, Rol: Administrador
