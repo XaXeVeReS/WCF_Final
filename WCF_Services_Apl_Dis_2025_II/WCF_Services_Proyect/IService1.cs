@@ -128,6 +128,9 @@ namespace WCF_Services_Proyect
 
         [OperationContract]
         Entities.Cls_Ventas Search_Venta(int Id_Venta);
+
+        [OperationContract]
+        int Search_id_venta_activa(int Id_Venta);
         #endregion
         //----------------------------------------------COMPRAS
         #region COMPRAS

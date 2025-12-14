@@ -776,9 +776,7 @@ namespace Data_Access
             }
         }
     }
-   
-    
-    
+
     //----------------------------------------------PLATOS
     public class DAC_Platos
     {
@@ -1556,12 +1554,10 @@ namespace Data_Access
                     {
                         cmd.CommandType = CommandType.StoredProcedure;
 
-                        cmd.Parameters.AddWithValue("@Id_Trabajador",
-                            (object)Venta.Id_Trabajador ?? DBNull.Value);
-
-                        cmd.Parameters.AddWithValue("@Id_Cliente",
-                            (object)Venta.Id_Cliente ?? DBNull.Value);
-
+                        cmd.Parameters.AddWithValue("@Id_Trabajador", (object)Venta.Id_Trabajador ?? DBNull.Value);
+                        cmd.Parameters.AddWithValue("@Metodo_de_Pago", (object)Venta.Metodo_Pago ?? DBNull.Value);
+                        cmd.Parameters.AddWithValue("@Id_Cliente", (object)Venta.Id_Cliente ?? DBNull.Value);
+                        cmd.Parameters.AddWithValue("@Monto_Total", (object)Venta.Monto_Total ?? DBNull.Value);
                         cmd.Parameters.AddWithValue("@Json_Detalle", Venta.json_DetalleVenta());
 
                         SqlParameter paramOutput = new SqlParameter("@IdVentaGenerado", SqlDbType.Int)
@@ -1807,6 +1803,35 @@ namespace Data_Access
                 }
             }
             return venta;
+        }
+        public int buscar_id_venta_activa(int Id_Cliente)
+        {
+            int idVentaEncontrada = 0; 
+            using (SqlConnection Connection = new SqlConnection(Conexion.Connect))
+            {
+                try
+                {
+                    if (Connection.State == ConnectionState.Closed) Connection.Open();
+
+                    using (SqlCommand cmd = new SqlCommand("Proc_Buscar_Venta_Activa_Por_Cliente", Connection))
+                    {
+                        cmd.CommandType = CommandType.StoredProcedure;
+                        cmd.Parameters.AddWithValue("@Id_Cliente", Id_Cliente);
+
+                        object result = cmd.ExecuteScalar();
+
+                        if (result != null && result != DBNull.Value)
+                        {
+                            idVentaEncontrada = Convert.ToInt32(result);
+                        }
+                    }
+                }
+                catch (Exception ex)
+                {
+                    throw new Exception("Error al buscar venta activa: " + ex.Message);
+                }
+            }
+            return idVentaEncontrada;
         }
     }
     //----------------------------------------------COMPRAS

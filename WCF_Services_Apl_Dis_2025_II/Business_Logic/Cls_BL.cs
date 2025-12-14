@@ -190,6 +190,10 @@ namespace Business_Logic
             Cls_Ventas Venta = D_ventas.buscar_venta(Id_Venta);
             return Venta;
         }
+        public int buscar_id_venta_activa(int Id_Venta)
+        {
+            return D_ventas.buscar_id_venta_activa(Id_Venta);
+        }
 
         #endregion
         //----------------------------------------------COMPRAS

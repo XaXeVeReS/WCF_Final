@@ -472,6 +472,18 @@ namespace WCF_Services_Proyect
                 throw new FaultException(e.Message);
             }
         }
+        public int Search_id_venta_activa(int Id_Venta)
+        {
+            try
+            {
+                return B_Logic.buscar_id_venta_activa(Id_Venta);
+            }
+            catch (Exception e)
+            {
+                throw new FaultException(e.Message);
+            }
+
+        }
         #endregion
         //----------------------------------------------COMPRAS
         #region COMPRAS
