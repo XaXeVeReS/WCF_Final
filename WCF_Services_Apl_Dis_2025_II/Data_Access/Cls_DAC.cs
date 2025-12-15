@@ -2545,7 +2545,8 @@ namespace Data_Access
                 // 3. PEDIDOS CANCELADOS
                 string sql3 = @"SELECT Id_Venta, Fecha_Pedido 
                                 FROM Ventas 
-                                WHERE Estado = 'Cancelado'";
+                                WHERE Estado = 'Cancelado' 
+                                AND CAST(Fecha_Pedido AS DATE) = CAST(GETDATE() AS DATE)";
 
                 using (var cmd = new SqlCommand(sql3, cn))
                 using (var dr = cmd.ExecuteReader())

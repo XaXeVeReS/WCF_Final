@@ -263,7 +263,7 @@ namespace Unit_Test_Project
             client.Insert_Promocion(promocion2);
             client.Insert_Promocion(promocion3);
 
-            var promociones = client.Get_Promociones();
+            var promociones = client.Get_Promociones(true);
             Assert.IsTrue(promociones.Exists(i => i.Nombre == "Salchi Papa para compartir"));
         }
 
